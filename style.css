@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Spartan", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+#header h1{
+    line-height: 70px;
+    font-size: xx-large;
+    color: rgba(249, 225, 9, 0.908);
+}
+
+#content {background-image: url("asset/ta.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#content h2{
+    margin-left: 50px;
+    font-size: large;
+    color: rgba(249, 225, 9, 0.908);
+}
+
+#content h1{
+    color: rgba(249, 225, 9, 0.908);
+}
+
+.textbox {
+    padding-top: 10px;
+    padding-right: 15px;
+    margin-left: 35px;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+}
+
+.text {
+    padding-right: 15px;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(249, 225, 9, 0.908);
+}
+
+.sinput{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 3px;
+    font-size: large;
+}
+
+.yearbox {
+    padding-top: 10px;
+    padding-right: 15px;
+    margin-left: 35px;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+}
+
+.year {
+    padding-right: 20px;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(249, 225, 9, 0.908);
+}
+
+.click {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.share {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+button {
+    width: 100px; /* Adjust the width based on your design */
+    height: 40px; /* Adjust the height based on your design */
+    border-radius: 20px; /* Make it slightly rounded */
+    padding: 0; /* Remove padding */
+    background-color: rgba(249, 225, 9, 0.908);
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: rgb(15, 0, 0);
+}
+

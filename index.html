@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThallaForReason</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section id="header">
+        <h1>ThallaForAReason</h1>
+        <i class="fa-solid fa-share-from-square"></i>
+    </section>
+
+    <section id="content">
+        <h2>Lets Find That If You Are</h2>
+        <h2>THALLA FOR A REASON</h2>
+
+        <div class="textbox">
+            <label class="text" for="name">NAME</label>
+            <input type="text" id="Name" class="sinput"/>
+        </div>
+
+        <div class="yearbox">
+            <label class="year" for="year">YEAR</label>
+            <input type="number" id="Year" class="sinput"/>
+        </div>
+
+        <div class="click">
+            <button onclick="checkNameAndYear()">GO!!</button>
+            <button onclick="tryAgain()">Try Again</button>
+        </div>
+
+        <h2 id="result"></h2> 
+
+        <div class="share">
+            <button onclick="shareWA()">WA</button>
+            <button onclick="shareIG()">IG</i></button>
+        </div>
+
+        <audio id="audio" src="asset/music.mp3" loop></audio>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
